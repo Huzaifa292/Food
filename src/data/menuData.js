@@ -5,7 +5,7 @@ export const CAFE_INFO = {
   tagline: "Crafted with Care, Shared with Joy.",
   eyebrow: "Fresh Daily • Crafted with Care",
   logoUrl: logoImage,
-  phone: "0344 2323824",
+  phone: "+92 344 2323824",
   whatsappNumber: "923442323824",
   email: "ayancafe345@gmail.com",
   address: "Infront of Shamsi Hospital, Wireless Gate, Karachi",

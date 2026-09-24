@@ -1,5 +1,5 @@
 import React from "react";
-import { Heart, MessageCircle, MapPin, Clock } from "lucide-react";
+import { Heart, MessageCircle, MapPin, Clock, Mail } from "lucide-react";
 import { CAFE_INFO } from "../data/menuData";
 import logoImg from "../assets/logo.jpeg";
 
@@ -72,6 +72,13 @@ export default function Footer() {
               <MapPin size={15} color="var(--caramel-accent)" />
               <span>Wireless Gate, Karachi</span>
             </div>
+            <a
+              href={`mailto:${CAFE_INFO.email}`}
+              style={{ display: "flex", alignItems: "center", gap: "6px", color: "var(--latte-soft)", textDecoration: "none" }}
+            >
+              <Mail size={15} color="var(--caramel-accent)" />
+              <span>{CAFE_INFO.email}</span>
+            </a>
           </div>
 
           {/* WhatsApp CTA */}
